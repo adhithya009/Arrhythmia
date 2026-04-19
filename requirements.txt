@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+wfdb
+tensorflow==2.15.*
+tf-keras==2.15.*
+tensorflow-model-optimization
