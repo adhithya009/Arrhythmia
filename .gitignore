@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project data & build artifacts
+# Processed MIT-BIH beats & splits
+processed/
+*.npy
+
+# Trained Keras checkpoints
+models/
+
+# TFLite exports
+tflite/
+*.tflite
+
+# Generated C headers for ESP32 (produced by c_array.py / test_beats.py)
+esp32/models/
+esp32/arrhythmia_inference/test_samples.h
+*_model.h
+test_samples.h
+
+# Plots
+*.png
